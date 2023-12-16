@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todolist</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Todo-List</h1><br>
+        <input type="text" class="js-input input-field" placeholder="Enter a task" onkeydown="enterTodo(event)">
+        <button class="js-addTodo add" onclick="renderTodoList()">Add</button>
+        <div class="js-output output"></div>
+        <p id="para"></p>
+    </div>
+
+    <script src="./assets/script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/af7cd30337.js"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>
